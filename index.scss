@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+$box-shadow: 2px 3px 5px rgb(237, 220, 220);
+nav {
+  margin-left: 10rem;
+}
+.second {
+  margin-left: 15rem;
+}
+.about {
+  text-align: center;
+}
+.card-e {
+  width: 20rem;
+  height: 15rem;
+  padding: 1rem;
+  box-shadow: $box-shadow;
+  border-radius: 1rem;
+}
+.icons {
+  i {
+    font-size: 1.5rem;
+    margin-left: 1.2rem;
+  }
+}
+.exp-card {
+  box-shadow: $box-shadow;
+  border-radius: 2%;
+}
+.projects {
+  .row {
+    margin-left: 2.5%;
+    .card {
+      border-radius: 5px;
+      box-shadow: $box-shadow;
+    }
+  }
+  .project-data {
+    margin-left: 2rem;
+    
+  }
+}
