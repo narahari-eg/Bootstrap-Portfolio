@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -27,6 +29,9 @@ nav {
   font-size: 1.5rem;
   margin-left: 1.2rem;
 }
+.icons i:hover {
+  cursor: pointer;
+}
 
 .exp-card {
   box-shadow: 2px 3px 5px rgb(237, 220, 220);
@@ -42,4 +47,12 @@ nav {
 }
 .projects .project-data {
   margin-left: 2rem;
+}
+
+.skills {
+  margin-left: 1rem;
+}
+.skills .sk-b {
+  border-radius: 1rem;
+  box-shadow: 2px 3px 5px rgb(237, 220, 220);
 }/*# sourceMappingURL=index.css.map */

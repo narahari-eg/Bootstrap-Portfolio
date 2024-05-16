@@ -48,43 +48,42 @@
             >
               <ul class="navbar-nav me-auto mb-2 mb-lg-0 justify-content-end">
                 <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="#"
+                  <a class="nav-link active" aria-current="page" href="#home"
                     >Home</a
                   >
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">About</a>
+                  <a class="nav-link" href="#about">About</a>
+                </li>
+                <!-- <li class="nav-item">
+                  <a class="nav-link" href="#skills">Skills</a>
+                </li> -->
+                <li class="nav-item">
+                  <a class="nav-link" href="#education">Education</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Skills</a>
+                  <a class="nav-link" href="#experience">Experience</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Education</a>
+                  <a class="nav-link" href="#projects">Projects</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Experience</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Projects</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Contact Us</a>
+                  <a class="nav-link" href="#contactus">Contact Us</a>
                 </li>
               </ul>
             </div>
           </div>
         </nav>
       </section>
-      <section class="container-fluid mt-3">
+      <section class="container-fluid mt-3" id="about">
         <div class="about-first"><h1 class="about">About</h1></div>
         <div class="about-second d-flex">
           <div class="container w-50">
             <img
-              src="./aboutus.jpg"
+              src="./Working-amico.png"
               alt="img"
               width="80%"
               height="100%"
-              class="rounded-circle"
             />
           </div>
           <div class="container w-50 mt-5">
@@ -107,7 +106,7 @@
           </div>
         </div>
       </section>
-      <section class="education mt-5 mb-5">
+      <section class="education mt-5 mb-5" id="education">
         <div class="edu-heading">
           <h1 class="d-flex justify-content-center mb-5">Education</h1>
         </div>
@@ -144,8 +143,49 @@
           </div>
         </div>
       </section>
-      <section class="skills"></section>
-      <section class="experience mt-5">
+      <!-- <section class="skills mt-5 mb-5" id="skills">
+        <div class="skill-title">
+          <h1 class="d-flex justify-content-center">Skills</h1>
+        </div>
+        <div class="skill-data mt-5">
+          <div class="row">
+            <div class="col-2 sk-b">
+              <div class="heading">
+                <h3>React Js</h3>
+              </div>
+              <div class="desc">
+                <p>Used in Single Page Application</p>
+              </div>
+            </div>
+            <div class="col-2 sk-b">
+              <div class="heading">
+                <h3>Express Js</h3>
+              </div>
+              <div class="desc">
+                <p>Used as Framework for backend Application</p>
+              </div>
+            </div>
+            <div class="col-2 sk-b">
+              <div class="heading">
+                <h3>Node Js</h3>
+              </div>
+              <div class="desc">
+                <p>Used as Runtime Environmentfor backend Application</p>
+              </div>
+            </div>
+            <div class="col-2 sk-b">
+              <div class="heading">
+                <h3>MongoDb</h3>
+              </div>
+              <div class="desc">
+                <p>Nosql database</p>
+              </div>
+            </div>
+            
+          </div>
+        </div>
+      </section> -->
+      <section class="experience mt-5" id="experience">
         <div class="exp-title mt-4">
           <h1 class="text-center">Experience</h1>
         </div>
@@ -164,6 +204,8 @@
             <div class="card-body">
               <h5 class="card-title">Trainee Developer</h5>
               <p class="card-text">Working as Intern at EG India.</p>
+
+              <p>skills :</p>
               <p class="mt-3">
                 Java,Jdbc,Angular,Asp.net,.net-core,Wpf,Spring
                 Boot,Hibernates,HTML,Scss,Version Control,Github,CLI
@@ -184,10 +226,12 @@
             />
             <div class="card-body">
               <h5 class="card-title">Trainee Intern</h5>
+
               <p class="card-text">
                 worked as Trainee at Impelsys pvt limited and got exposure to
                 various technologies like java and jdbc.
               </p>
+              <p>skills :</p>
               <p class="mt-3">Java,Jdbc,Jsp,Servlets,SQL</p>
               <a href="#" class="btn btn-dark w-100">give it a look</a>
             </div>
@@ -200,24 +244,30 @@
             <img src="./Working-amico.png" class="card-img-top" alt="..." />
             <div class="card-body">
               <h5 class="card-title">Freelancer</h5>
+
               <p class="card-text">
                 worked as freelancer where i got opportunity to work on various
                 tech stacks.
               </p>
+              <p>skills :</p>
               <p>React Js,Express Js,Node Js,Mongodb,Mysql,Redux.</p>
               <a href="#" class="btn btn-dark w-100">give it a look</a>
             </div>
           </div>
         </div>
       </section>
-      <section class="projects mt-5 mb-5">
+      <section class="projects mt-5 mb-5" id="projects">
         <div class="project-title">
           <h1 class="d-flex justify-content-center">Projects</h1>
         </div>
         <div class="project-data mt-5">
           <div class="row">
             <div class="col-4">
-              <div class="card p-3" style="width: 18rem" data-aos="fade-down-right">
+              <div
+                class="card p-3"
+                style="width: 18rem"
+                data-aos="fade-down-right"
+              >
                 <img
                   src="./Online Doctor-amico.png"
                   class="card-img-top"
@@ -254,7 +304,11 @@
               </div>
             </div>
             <div class="col-4">
-              <div class="card p-3" style="width: 18rem" data-aos="fade-down-left">
+              <div
+                class="card p-3"
+                style="width: 18rem"
+                data-aos="fade-down-left"
+              >
                 <img
                   src="./Home cinema-pana.png"
                   class="card-img-top"
@@ -271,7 +325,11 @@
           </div>
           <div class="row mt-3">
             <div class="col-4">
-              <div class="card p-3" style="width: 18rem" data-aos="fade-down-right">
+              <div
+                class="card p-3"
+                style="width: 18rem"
+                data-aos="fade-down-right"
+              >
                 <img
                   src="./Online test-amico.png"
                   class="card-img-top"
@@ -291,7 +349,7 @@
             <div class="col-4">
               <div class="card p-3" style="width: 18rem" data-aos="zoom-in">
                 <img src="./Cricket-pana.png" class="card-img-top" alt="..." />
-                <div class="card-body ">
+                <div class="card-body">
                   <h5 class="card-title">Live Cricket-Score System</h5>
                   <p class="card-text">
                     A Platform shows live cricket scores using Rest Api
@@ -302,7 +360,11 @@
               </div>
             </div>
             <div class="col-4">
-              <div class="card p-3" style="width: 18rem" data-aos="fade-down-left">
+              <div
+                class="card p-3"
+                style="width: 18rem"
+                data-aos="fade-down-left"
+              >
                 <img
                   src="./driving school-pana.png"
                   class="card-img-top"
@@ -319,6 +381,82 @@
               </div>
             </div>
           </div>
+        </div>
+      </section>
+      <section class="contactus mt-5 mb-5" id="contactus">
+        <div class="contact-heading mt-5">
+          <h1 class="d-flex justify-content-center">Contact me</h1>
+        </div>
+        <div class="container-fluid bg-light row mt-3 p-5">
+          <div class="container col-6">
+            <img
+              src="./Contact us-amico.png"
+              alt="signup image"
+              width="100%"
+              height="100%"
+              class="mt-1 rounded"
+            />
+          </div>
+          <div
+            class="container col-6 p-2 rounded"
+            style="background-color: white; width: 50%; height: 80%"
+          >
+            <form>
+              <div class="mb-3 mt-2">
+                <label for="exampleInputName" class="form-label">Name</label>
+                <input
+                  type="email"
+                  class="form-control"
+                  id="exampleInputName"
+                  aria-describedby="emailHelp"
+                />
+              </div>
+              <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label"
+                  >Email address</label
+                >
+                <input
+                  type="email"
+                  class="form-control"
+                  id="exampleInputEmail1"
+                  aria-describedby="emailHelp"
+                />
+              </div>
+              <div class="mb-3">
+                <label for="exampleInputPhone" class="form-label">Phone</label>
+                <input
+                  type="email"
+                  class="form-control"
+                  id="exampleInputPhone"
+                  aria-describedby="emailHelp"
+                />
+              </div>
+              <div class="mb-3">
+                <label for="exampleInputPassword1" class="form-label"
+                  >Message</label
+                >
+                <input
+                  type="text"
+                  class="form-control"
+                  id="exampleInputPassword1"
+                />
+              </div>
+
+              <button type="submit" class="btn btn-primary w-100 mb-3">
+                contact here
+              </button>
+            </form>
+          </div>
+        </div>
+      </section>
+      <section class="footer">
+        <div
+          class="text-center p-3"
+          style="background-color: rgba(0, 0, 0, 0.05)"
+        >
+          © 2024 Copyright:
+          <a class="text-body" href="#">Narahari Hegde</a>
+          All rights reserved.
         </div>
       </section>
     </div>
